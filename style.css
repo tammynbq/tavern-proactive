@@ -1,0 +1,11 @@
+.ptm .ptm-row { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.ptm .ptm-row > label { flex: 1 1 140px; }
+.ptm .ptm-hint { font-size: 0.85em; opacity: 0.7; margin: 2px 0 6px; }
+.ptm .ptm-char { margin: 4px 0 8px; }
+.ptm details.ptm-sec { margin-top: 10px; border-top: 1px solid var(--SmartThemeBorderColor); padding-top: 6px; }
+.ptm details.ptm-sec > summary { cursor: pointer; font-weight: bold; padding: 4px 0; list-style: none; display: flex; align-items: center; gap: 6px; user-select: none; }
+.ptm details.ptm-sec > summary::-webkit-details-marker { display: none; }
+.ptm details.ptm-sec > summary::before { content: '▸'; display: inline-block; transition: transform 0.15s; opacity: 0.7; }
+.ptm details.ptm-sec[open] > summary::before { transform: rotate(90deg); }
+.ptm textarea { font-size: 0.9em; }
+.ptm .ptm-status { font-size: 0.85em; opacity: 0.8; margin-top: 6px; white-space: pre-wrap; }
