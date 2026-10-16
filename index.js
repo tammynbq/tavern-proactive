@@ -18,7 +18,7 @@ const DEFAULT_SETTINGS = {
     enabled: true,
     chars: {},
     returnHours: 6,
-    idleMinutes: 15,
+    idleMinutes: 60,
     cycleCare: true,
     cycleDaysBefore: 2,
     maxUnanswered: 1,
